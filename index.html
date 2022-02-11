@@ -59,7 +59,7 @@
         <button type="button" class="hero-button button" data-modal-open>Заказать услугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="button cross" data-modal-close>
+            <button class="button-cross button" data-modal-close>
               <svg class="icon-cross" width="11" height="11"> 
                 <use href="./images/icons.svg#icon-cross"></use>
               </svg>
@@ -117,7 +117,7 @@
             </span>
 
           </div>
-          <div class="form-field">
+          <div class="form-field coment">
             <label for="user-text" class="modal-label">Комментарий</label>
             <textarea
               name="user-text"
@@ -126,7 +126,7 @@
               placeholder="Введите текст"
             ></textarea>
           </div>
-          <div class="form-field">
+          <div class="form-field contract">
             <input
               type="checkbox"
               class="modal-check visually-hidden"
@@ -383,21 +383,21 @@
                     </svg></a></li>
   </ul>
 </div>
-    <div class="subscription-field">      
+    <form class="subscription-field">      
     <p class="title-mailing">подпишитесь на рассылку</p>
-    <div class="form-field">      
+        <div class="subs-box"> 
+<div class="form-field">      
       <input type="email" class="form-input" name="mail" placeholder="E-mail">
        <label for="mail" class="text-label"></label>
     </div>
-    </div>
-<div class="btn-box"> 
     <button type="submit" class="button-sub button"> 
       <span class="text-btn">Подписаться</span> 
     <svg class="icon-send" width="24" height="24">
       <use href="./images/icons.svg#icon-send"></use>
     </svg>
     </button>
-</div>
+    </div>
+    </form>
 </div>
 
 
