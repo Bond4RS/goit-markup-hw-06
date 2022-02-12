@@ -430,6 +430,10 @@ line-height: calc(16 / 14)
   margin-right: 5px;
 }
 
+.modal-check:focus + .modal-check-box {
+  border: 2px solid var(--accent-color);
+}
+
 .modal-check-icon {
   fill: var(--primary-white-color);
 }
@@ -972,10 +976,6 @@ line-height: calc(16 / 14)
   color: #ffffff;
 }
 
-.form-field {
-  position: relative;
-}
-
 .form-input {
   padding: 10px 20px;
   width: 358px;
@@ -987,17 +987,6 @@ line-height: calc(16 / 14)
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #2f303a;
   color: var(--primary-white-color);
-}
-
-.text-label {
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  font-size: 16px;
-  line-height: calc (20 / 16);
-  transform: translateY(-50%);
-
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .subs-box {
