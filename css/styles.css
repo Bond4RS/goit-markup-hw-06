@@ -962,10 +962,6 @@ line-height: calc(16 / 14)
   fill: var(--primary-white-color);
 }
 
-.subscription-field {
-  display: inline-block;
-}
-
 .title-mailing {
   margin-bottom: 20px;
   font-weight: 700;
